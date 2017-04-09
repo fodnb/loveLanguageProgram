@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
     var buttonNumber = 0;
-    var lArray = ["Una Keeping track of my loveList"];
+    var lArray = [];
     var counter = 0;
     var times = 0;
     var count = 0;
@@ -28,7 +28,7 @@ $(document).ready(function() {
     
     	
         $("#myLoves").empty();
-
+         lArray.push("UNA KEEPING TRACK OF MY LOVELIST");
          buttonNumber = 0;
         for (i = 0; i < lArray.length; i++) {
         	
@@ -49,6 +49,7 @@ $(document).ready(function() {
             buttonNumber++;
             localStorage.setItem('LoveArray', JSON.stringify(lArray));
         }
+
 
     }
     
