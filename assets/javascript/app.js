@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
     var buttonNumber = 0;
-    var lArray = [];
+    var lArray = ["Una Keeping track of my loveList"];
     var counter = 0;
     var times = 0;
     var count = 0;
