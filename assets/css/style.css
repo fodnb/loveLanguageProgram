@@ -1,0 +1,23 @@
+	/** {
+	    box-sizing: border-box;
+	    font-weight: 700;
+	    font-size: 24px;
+	}*/
+
+body {
+    margin: 0 auto;
+    overflow: auto;
+    max-width: 960px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#mainDiv{
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.loveDiv{
+	margin: 50px 0;
+}
